@@ -1,0 +1,33 @@
+<!-- sidebar start -->
+<div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+    <div class="am-offcanvas-bar admin-offcanvas-bar">
+        <ul class="am-list admin-sidebar-list">
+            <li><a href="{:U('Index/index')}"><span class="am-icon-home"></span> 首页</a></li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span> 抽奖活动 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+                       <li><a href="{:U('Prize/index')}" <if condition='MODULE_NAME eq "Prize"'>style="color: #0e90d2"</if>><span class="am-icon-th"></span> 奖品设置</a></li>
+                </ul>
+            </li>
+            <!--<li><a href="admin-table.html"><span class="am-icon-table"></span> 表格</a></li>-->
+            <!--<li><a href="admin-form.html"><span class="am-icon-pencil-square-o"></span> 表单</a></li>-->
+            <!--<li><a href="#"><span class="am-icon-sign-out"></span> 注销</a></li>-->
+        </ul>
+
+        <div class="am-panel am-panel-default admin-sidebar-panel">
+            <div class="am-panel-bd">
+                <p><span class="am-icon-bookmark"></span> 公告</p>
+                <p>Simple is Better</p>
+            </div>
+        </div>
+
+        <div class="am-panel am-panel-default admin-sidebar-panel">
+            <div class="am-panel-bd">
+                <p><span class="am-icon-tag"></span> 技术支持</p>
+                <p>QQ:349504135<a target=blank href=tencent://message/?uin=349504135&Site=1&Menu=yes><img border="0" SRC=http://wpa.qq.com/pa?p=1:349504135:4 alt="点击这里给我发消息"></a></p>
+                <p>微信:Sakyo123</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- sidebar end -->

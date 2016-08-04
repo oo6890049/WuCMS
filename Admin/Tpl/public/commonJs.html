@@ -1,0 +1,106 @@
+<script>
+    /**
+     * Created by zhongshan on 2016/8/3.
+     */
+//公共js
+    $(function () {
+        $('#select-all').on('change', function () {
+            var check_state = $(this).is(':checked')
+
+            if (check_state == true) {
+                $('tbody input[type="checkbox"]').prop('checked', true);
+            } else {
+                $('tbody input[type="checkbox"]').prop('checked', false);
+            }
+        })
+    })
+    function add(){
+        var url = '{:U(MODULE_NAME."/add")}';
+        window.location.href=url;
+    }
+//it's ridiculous ,but it works-.-
+//    function edit(id){
+//        var url = '{:U(MODULE_NAME."/edit")}';
+//        var form = document.createElement("form");
+//        var m='{:MODULE_NAME}';
+//        var a='edit';
+//        var id=id;
+//        form.setAttribute("method", "get");
+//        form.setAttribute("action", url);
+//        form.setAttribute("id", "editForm");
+//        form.setAttribute("name", "theForm");
+//        newinput = document.createElement('input');
+//        newinput.setAttribute('type','hidden');
+//        newinput.setAttribute('name','m');
+//        newinput.setAttribute('value',m)
+//        form.appendChild(newinput);
+//        newinput = document.createElement('input');
+//        newinput.setAttribute('type','hidden');
+//        newinput.setAttribute('name','a');
+//        newinput.setAttribute('value',a)
+//        form.appendChild(newinput);
+//        newinput = document.createElement('input');
+//        newinput.setAttribute('type','hidden');
+//        newinput.setAttribute('name','id');
+//        newinput.setAttribute('value',id)
+//        form.appendChild(newinput);
+//        //window.location.href=url;
+//        form.submit();
+//        console.log(form);
+//    }
+    function del() {
+        var res = window.confirm("是否删除选中数据？")
+        if (res) {
+            var ids = new Array;
+            $('tbody input[type="checkbox"]:checked').each(function () {
+                var id = $(this).attr('data-id');
+                ids.push(id);
+            })
+            var data = {ids: ids};
+            var api_url = '{:U(MODULE_NAME."/del")}';
+            $.post(api_url, data, function (data) {
+
+                if (data.state == "-1") {
+                    alert("操作失败");
+                } else if (!data) {
+                    alert("提交失败");
+                } else {
+                    alert("操作成功");
+                    window.location.reload();
+                }
+            });
+        } else {
+            return false;
+        }
+    }
+
+
+    function queryState(obj) {
+        var val = $(obj).find("option:selected").val();
+        if (val == 0) {
+            var url = '{:U(MODULE_NAME."/index","state=0")}';
+        } else if (val == 1) {
+            var url = '{:U(MODULE_NAME."/index","state=1")}';
+        } else {
+            var url = '{:U(MODULE_NAME."/index")}';
+        }
+        window.location.href = url;
+    }
+
+    function ExportExcel(query) {
+        if (query) {
+            var url = '{:U(MODULE_NAME."/ExportExcel")}' + '&query_text=' + query;
+        } else {
+            var url = '{:U(MODULE_NAME."/ExportExcel")}';
+        }
+
+        window.open(url);
+    }
+
+    function showDetail(depart_id) {
+
+        var url = '{:U("Staff/detail")}' + '&depart_id=' + depart_id;
+
+        window.open(url);
+    }
+</script>
