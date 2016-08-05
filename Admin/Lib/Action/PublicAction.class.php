@@ -23,7 +23,7 @@ class PublicAction extends Action
         if ($res) {
             session('ADMIN_ID',1);
             //$this->success('登录成功', U('Staff/index'));
-            $this->success('登录成功', U('index/index'));
+            $this->success('登录成功', U('Prize/index'));
         } else {
             $this->error('登录失败，请检查用户名');
         }

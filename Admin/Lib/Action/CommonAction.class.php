@@ -26,7 +26,7 @@ class CommonAction extends Action
         $Page = new Page($count, 20);// 实例化分页类 传入总记录数
         $show = $Page->show();// 分页显示输出
         // 进行分页数据查询
-        $list = $Model->where($map)->order('id DESC')->limit($Page->firstRow . ',' . $Page->listRows)->select();
+        $list = $Model->where($map)->order('sort ASC')->limit($Page->firstRow . ',' . $Page->listRows)->select();
 
         $this->assign('list', $list);// 赋值数据集
         $this->assign('page', $show);// 赋值分页输出

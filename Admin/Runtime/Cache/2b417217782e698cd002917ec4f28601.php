@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head lang="en">
   <meta charset="UTF-8">
@@ -37,7 +37,7 @@
     <h3>登录</h3>
     <hr>
 
-    <form method="post" class="am-form" action="{:U('Public/doLogin')}">
+    <form method="post" class="am-form" action="<?php echo U('Public/doLogin');?>">
       <label for="email">账号:</label>
       <input type="text" name="name" id="email" required value="">
       <br>

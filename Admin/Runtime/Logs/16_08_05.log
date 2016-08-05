@@ -1,0 +1,1327 @@
+[ 2016-08-05T09:55:59+08:00 ] 0.0.0.0 /cklDraw/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+
+[ 2016-08-05T09:55:59+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016052s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.222305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222418s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.014314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.011878s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.056482s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012768s ]
+
+[ 2016-08-05T09:56:03+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007855s ]
+SQL: SELECT * FROM `user` WHERE ( `name` = 'oo6890049' ) AND ( `password` = '68d2aba4a6c0657644099bf0f5810454' ) LIMIT 1   [ RunTime:0.008519s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.184512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184653s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000581s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000565s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002547s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2016-08-05T09:56:11+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007842s ]
+SQL: SELECT * FROM `user` WHERE ( `name` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.003853s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017687s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001257s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001085s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003869s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001093s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-08-05T09:56:12+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:index
+
+[ 2016-08-05T09:56:51+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+ERR: 无法加载模块:index
+
+[ 2016-08-05T09:56:55+08:00 ] 0.0.0.0 /cklDraw/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `index` [ RunTime:0.007140s ]
+ERR: 1146:Table 'ckl_draw.index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `index`
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `index` LIMIT 1   [ RunTime:0.003424s ]
+ERR: 1146:Table 'ckl_draw.index' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `index` LIMIT 1  
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `index` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.002925s ]
+ERR: 1146:Table 'ckl_draw.index' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `index` ORDER BY id DESC LIMIT 0,20  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093745s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000509s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000383s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001747s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2016-08-05T09:57:02+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.011119s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004726s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.010446s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.101502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101570s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000809s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000715s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003475s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002644s ]
+
+[ 2016-08-05T09:57:27+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.006718s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003212s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004408s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000505s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2016-08-05T09:57:36+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.007789s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003265s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004293s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077881s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000539s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000397s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001095s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-08-05T14:41:11+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-08-05T14:41:11+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018906s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000726s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003044s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-08-05T14:41:13+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010259s ]
+SQL: SELECT * FROM `user` WHERE ( `name` = 'oo6890049' ) AND ( `password` = '68d2aba4a6c0657644099bf0f5810454' ) LIMIT 1   [ RunTime:0.013565s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030461s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000391s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-08-05T14:41:20+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011164s ]
+SQL: SELECT * FROM `user` WHERE ( `name` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.003997s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015195s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000699s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000670s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-08-05T14:41:21+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008409s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003077s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.003924s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.153168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153256s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001865s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2016-08-05T14:41:25+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.020519s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.008247s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000375s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-08-05T14:41:29+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=update
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.006896s ]
+SQL: UPDATE `prize` SET `title`='一等奖：苹果手机',`all_count`=20,`percentage`=10 WHERE ( `id` = 5 ) [ RunTime:0.003636s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009911s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000562s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002642s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2016-08-05T14:41:30+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.011083s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.011939s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004349s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064840s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000552s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-08-05T14:41:34+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059459s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001147s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000616s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003359s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000987s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-08-05T14:41:48+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=insert
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.009073s ]
+NOTIC: [8] Undefined offset:  3 D:\WWW\cklDraw\ThinkPHP\Lib\Core\Model.class.php 第 907 行.
+SQL: INSERT INTO `prize` (`title`,`all_count`,`percentage`,`state`,`create_time`) VALUES ('三等奖：小米手环',50,10,1,1470379308) [ RunTime:0.005358s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008360s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000716s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000616s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002667s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-08-05T14:41:50+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008402s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003119s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.003735s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000392s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001652s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-08-05T14:42:00+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.009163s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.017948s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000403s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001264s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2016-08-05T14:42:02+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=update
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.014521s ]
+SQL: UPDATE `prize` SET `title`='二等奖：小米手机',`all_count`=50,`percentage`=70 WHERE ( `id` = 1 ) [ RunTime:0.009755s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000425s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000224s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001550s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-08-05T14:42:03+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.007275s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004280s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.003778s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071130s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000531s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002281s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000957s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-08-05T14:45:34+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=6
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.009437s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.003734s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045718s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000852s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000634s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002917s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2016-08-05T14:45:42+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=update
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.027075s ]
+SQL: UPDATE `prize` SET `title`='三等奖：小米手环',`all_count`=50,`percentage`=50 WHERE ( `id` = 6 ) [ RunTime:0.017492s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007911s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000327s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000223s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-08-05T14:45:43+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.031417s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.007494s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.006573s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064077s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000482s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000355s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000230s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001385s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2016-08-05T14:45:49+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.018178s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.003697s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000446s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001687s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2016-08-05T14:45:52+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=update
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008384s ]
+SQL: UPDATE `prize` SET `title`='二等奖：小米手机',`all_count`=50,`percentage`=30 WHERE ( `id` = 1 ) [ RunTime:0.006291s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018153s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000441s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001912s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-08-05T14:45:54+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008063s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004963s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.006886s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085097s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-08-05T14:46:30+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.016524s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.012806s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043260s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000519s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000557s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001949s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001190s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2016-08-05T14:46:34+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=update
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.009671s ]
+SQL: UPDATE `prize` SET `title`='一等奖：苹果手机',`all_count`=20,`percentage`=10 WHERE ( `id` = 5 ) [ RunTime:0.003735s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008081s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001531s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004466s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-08-05T14:46:35+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.012251s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.010712s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004598s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000734s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-08-05T15:21:22+08:00 ] 192.168.1.128 /ckldraw/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-08-05T15:21:22+08:00 ] 192.168.1.128 /ckldraw/admin.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018095s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000724s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000645s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002835s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-08-05T15:21:29+08:00 ] 192.168.1.128 /ckldraw/admin.php?m=Public&a=doLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008809s ]
+SQL: SELECT * FROM `user` WHERE ( `name` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.008928s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019679s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000425s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001645s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-08-05T15:21:30+08:00 ] 192.168.1.128 /ckldraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.007065s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.007032s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004212s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000704s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000582s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002719s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001054s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2016-08-05T15:21:39+08:00 ] 192.168.1.128 /ckldraw/admin.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `index` [ RunTime:0.098441s ]
+ERR: 1146:Table 'ckl_draw.index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `index`
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `index` LIMIT 1   [ RunTime:0.003467s ]
+ERR: 1146:Table 'ckl_draw.index' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `index` LIMIT 1  
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `index` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.303938s ]
+ERR: 1146:Table 'ckl_draw.index' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `index` ORDER BY id DESC LIMIT 0,20  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.089291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089445s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000499s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001019s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-08-05T15:21:42+08:00 ] 192.168.1.128 /ckldraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008330s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003191s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.003635s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065481s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000495s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000501s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002036s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-08-05T15:50:44+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008818s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003124s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004240s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074228s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000930s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002270s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000761s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005061s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002040s ]
+
+[ 2016-08-05T15:50:46+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.007195s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003879s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.006277s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-08-05T15:50:56+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.006214s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004175s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004601s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072222s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000479s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000234s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-08-05T15:50:57+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.009855s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004503s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004138s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071422s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000673s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000601s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001182s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2016-08-05T15:51:04+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.006628s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003304s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004694s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000470s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000350s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001665s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-08-05T15:51:21+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.011684s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004649s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004306s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 104 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 116 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 117 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071616s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000896s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000677s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003441s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001402s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2016-08-05T15:51:26+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=6
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.020794s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.005855s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044835s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000688s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2016-08-05T15:54:25+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=6
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.009893s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.004154s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050463s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001655s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000771s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003918s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001753s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001880s ]
+
+[ 2016-08-05T15:54:27+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.010589s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003526s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.007644s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 106 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 119 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 120 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081784s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000853s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000728s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003459s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2016-08-05T15:54:42+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.010129s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004104s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.010240s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 106 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 119 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 120 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.092754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092851s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001136s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000715s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003616s ]
+
+[ 2016-08-05T15:54:43+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054269s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000974s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002333s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-08-05T15:54:45+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008354s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004242s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 106 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 119 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 120 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000417s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000223s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001520s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-08-05T15:54:47+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.017955s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.012421s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043475s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000532s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000619s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003164s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001595s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2016-08-05T15:54:49+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=update
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008581s ]
+SQL: UPDATE `prize` SET `title`='二等奖：小米手机',`all_count`=30,`percentage`=30,`sort`=2 WHERE ( `id` = 1 ) [ RunTime:0.003895s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024632s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000379s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001582s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000587s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-08-05T15:54:50+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.006623s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.003589s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.004275s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 106 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 119 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 120 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000658s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002080s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-08-05T15:54:51+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.006946s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.003688s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041857s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000445s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001949s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001073s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-08-05T15:54:53+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=update
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008607s ]
+SQL: UPDATE `prize` SET `title`='一等奖：苹果手机',`all_count`=20,`percentage`=10,`sort`=1 WHERE ( `id` = 5 ) [ RunTime:0.003935s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000472s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002370s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001087s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-08-05T15:54:54+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008884s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004321s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.003878s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 106 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 119 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 120 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069018s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000467s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000275s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-08-05T15:54:55+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=edit&id=6
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008779s ]
+SQL: SELECT * FROM `prize` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.004063s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000758s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001391s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001194s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004979s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2016-08-05T15:54:56+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=update
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.007396s ]
+SQL: UPDATE `prize` SET `title`='三等奖：小米手环',`all_count`=50,`percentage`=50,`sort`=3 WHERE ( `id` = 6 ) [ RunTime:0.003370s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010638s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000365s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000724s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-08-05T15:54:58+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.008054s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.005056s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.006048s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 106 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 119 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 120 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075473s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000519s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000218s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001645s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-08-05T15:55:18+08:00 ] 0.0.0.0 /cklDraw/admin.php?m=Prize&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `prize` [ RunTime:0.010632s ]
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `prize` LIMIT 1   [ RunTime:0.004456s ]
+NOTIC: [8] Undefined variable: map D:\WWW\cklDraw\Admin\Lib\Action\CommonAction.class.php 第 29 行.
+SQL: SELECT * FROM `prize` ORDER BY sort ASC LIMIT 0,20   [ RunTime:0.007421s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 106 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 118 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 119 行.
+NOTIC: [8] Undefined index:  state D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 120 行.
+NOTIC: [8] Undefined index:  query_text D:\WWW\cklDraw\Admin\Runtime\Cache\19ce7b5def5afa92c69e7f169cae458e.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.086965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087029s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001776s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001581s ]
+
